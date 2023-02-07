@@ -6,11 +6,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   build: {
     rollupOptions: {
-      input: 'src/mfe-template.tsx',
+      input: 'src/org-template.tsx',
       preserveEntrySignatures: 'strict',
       output: {
         format: 'system',
-        entryFileNames: 'mfe-template.js',
+        entryFileNames: 'org-template.js',
       },
     },
   },
