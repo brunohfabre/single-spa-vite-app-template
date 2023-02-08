@@ -8,6 +8,7 @@ export default defineConfig({
     rollupOptions: {
       input: 'src/org-template.tsx',
       preserveEntrySignatures: 'strict',
+      external: ['react', 'react-dom'],
       output: {
         format: 'system',
         entryFileNames: 'org-template.js',
